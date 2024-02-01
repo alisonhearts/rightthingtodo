@@ -31,7 +31,7 @@
     corrr=`\n<h2>NEW CAMPAIGN TRAIL</h2><font id='wittyquote' size='4' color='white'><em>`+customquote+`</em></font>`
 
     credits = function() {
-        credits = ["Alison (alisonhearts on reddit and Discord) did the writing and coding, but couldn't have done it without Jet's code 2 generator, the code 1 modmaker on the NCT site, and Astro's mod making guide.","","Astro (ItsAstronomics on reddit, itsastronomical on Discord) was also extremely helpful with squashing some bugs and making this mod actually load.","","The map for this mod is adapted from a map made by JLM1357, licensed under CC BY-SA 4.0, found on Wikimedia Commons."]
+        credits = ["Alison did the writing and coding, but couldn't have done it without Jet's code 2 generator, the code 1 modmaker on the NCT site, and Astro's mod making guide.","","Both Astro and Nina were extremely helpful with squashing some bugs, providing general advice, and making this mod actually load.","","Lucy, all helped with playtesting.","","The map for this mod is adapted from a map made by JLM1357, licensed under CC BY-SA 4.0, found on Wikimedia Commons."]
         text = "CREDITS:\n\n"
         for (i in credits) {
             text += credits[i] + "\n"
