@@ -12345,7 +12345,18 @@ function ctsAchievement(achievement, difficultyChecker = true){
                 }, 100);
             }
             return "<h3>How?</h3><p>You lost every district?!</p>";
-        } else if (quickstats[0] >= 1 && quickstats[0]<45) {
+        } else if (quickstats[0] >= 1 && quickstats[0]<31) {
+            if (used != true) {
+                setInterval(function () {
+                    used = true;
+                    imgg = document.getElementsByClassName("person_image")[0];
+                    if (imgg != null) {
+                        imgg.src = "https://i.imgur.com/ufQw7i4.png";
+                    }
+                }, 100);
+            }
+        return "<h3>Humiliating.</h3><p>That was the word on your mind as the results came in. The naysayers who had said that your arrogance throughout the pandemic would take you down were proven right. Victorians have decisively rejected your style of governance and reversed the landslide of 2018.</p><p>Not only did you lose this election, but Matthew Guy is now about to become the next Premier of Victoria, with a majority for his Liberal Party. In 2018, he had been left for dead politically after a racist scare campaign against Sudanese-Australians, as well as a baffling decision to go to a lobster dinner with a mob boss. But now, Matthew Guy looks to be Premier for the next four years.</p><p>The Victorian Liberal party, a gaggle of incompetent messes and fools, will govern the state for the next eight years. And you only have yourself to blame. Matthew Guy came back from the dead because of your arrogance and hubris. You didn't deserve anything better.</p>"
+        } else if (quickstats[0] >= 30 && quickstats[0]<45) {
             if (used != true) {
                 setInterval(function () {
                     used = true;
@@ -12355,7 +12366,7 @@ function ctsAchievement(achievement, difficultyChecker = true){
                     }
                 }, 100);
             }
-        return "<h3>Loss.</h3><p>You've failed to win the Victorian state election.</p><p>Depending on the size of your crossbench, it's possible that you might be able to cobble together agreements with the Greens or independents, but this is a stunning rebuke of your politics and your handling of the COVID-19 pandemic. In just four years, a historic landslide has been swept away.</p><p>It is clear that this was an election campaign decided by your style of politics and your management of the state, which Victorians have roundly decided to reject.</p>"
+        return "<h3>Loss.</h3><p>You've failed to win the Victorian state election.</p><p>Depending on the size of your crossbench, it's possible that you might be able to cobble together agreements with the Greens or independents, but this is a stunning rebuke of your politics and your handling of the COVID-19 pandemic. In just four years, a historic landslide has been swept away.</p><p>Whether you only came a few seats away from governing alone, or if the Liberals have done the unthinkable and won a majority government, it never should have been this close to begin with. It is clear that this was an election campaign decided by your style of politics and your management of the state, which Victorians have roundly decided to reject.</p>"
         } else if (quickstats[0] >= 44 && quickstats[0]<56) {
             if (used != true) {
                 setInterval(function () {
